@@ -21,7 +21,7 @@ public class UserController {
   public ResponseEntity create(@RequestBody UserModel userModel) {
     var usernameAlreadyExists = this.userRepository.existsByUsername(userModel.getUsername());
 
-    if(usernameAlreadyExists) {
+    if (usernameAlreadyExists) {
       return ResponseEntity.status(HttpStatus.BAD_REQUEST).body("Username already exists!");
     }
 
