@@ -19,8 +19,8 @@ Authorization: Basic vitoresser:12345
   "description": "Task to add CPF field to user registration.",
   "title": "Add CPF field",
   "priority": "High",
-  "startAt": "2023-10-15T15:30:00",
-  "endAt": "2023-10-16T18:00:00"
+  "startAt": "2023-11-15T15:30:00",
+  "endAt": "2023-11-16T18:00:00"
 }
 
 ###
@@ -28,7 +28,7 @@ Authorization: Basic vitoresser:12345
 ###
 
 # @name update-task
-PUT http://localhost:8080/tasks/update/6bc28e11-57c2-49b7-8e81-724e37d5f928
+PUT http://localhost:8080/tasks/update/af89ec5a-dacd-4362-aec7-8ece0f2fae3b
 Content-Type: application/json
 Authorization: Basic vitoresser:12345
 
